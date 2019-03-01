@@ -59,7 +59,7 @@
         if (_contentSize.width != 0) {
             barWidth = _parasiticScrollView.frame.size.width/_contentSize.width * self.frame.size.width;
         }
-        self.barRectView.frame = CGRectMake(0, 0, barWidth, self.frame.size.width);
+        self.barRectView.frame = CGRectMake(0, 0, barWidth, self.frame.size.height);
     }
     
 }
